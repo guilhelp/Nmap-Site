@@ -1,0 +1,349 @@
+<html>
+<!-- Declarando o Css -->
+<head>
+    <link rel="stylesheet" type="text/css" href="./css/main_exenmap.css">
+    <title>Security Bot - Nmap</title>
+</head>
+<!-- Fim do Declarando o Css -->
+<body>
+    <header class="menu-principal">
+        <main>
+            <!-- Redes Sociais -->
+            <div class="header-1">
+                <div class="logo">
+                    <a href="index.html">
+                    <img src="./img/Nmap/logo.png" />
+                    </a>
+                </div>
+                <div class="redes-sociais">
+                        <br>
+                        <ul>
+                        <li>
+                            <a href="https://pt-br.facebook.com/" target="_blank">
+                                <img src="./img/Nmap/face.png" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <img src="./img/Nmap/insta2.png" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/" target="_blank">
+                                <img src="./img/Nmap/tw.png" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://br.linkedin.com/" target="_blank">
+                                <img src="./img/Nmap/linkedin.png" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Fim das Redes Sociais -->
+        </main>
+    </header>    
+<!-- Menu -->
+  <center>
+    <nav>      
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li>
+                <a href="#">Informações
+                   <i class="fas fa-caret-down"></i>
+                </a>
+                <ul>
+                    <li><a href="indexnmap.html">Nmap</a></li>
+                    <li><a href="indexfire.html">Firewall</a></li>
+                </ul>
+           </li>
+            <li>
+                <a href="#">Funcionamento
+                    <i class="fas fa-caret-down"></i>
+                </a>
+                <ul>
+                    <li><a href="_funcnmap.html">Nmap</a></li>
+                    <li><a href="_funcfire.html">Firewall</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Exemplos
+                    <i class="fas fa-caret-down"></i>
+                </a>
+                <ul>
+                    <li><a href="_exenmap.html">Nmap</a></li>
+                    <li><a href="_exefire.html">Firewall</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Download
+                    <i class="fas fa-caret-down"></i>
+                </a>
+                <ul>
+                    <li><a href="_downnmap.html#ARTIGO1">Windows</a></li>
+                    <li><a href="_downnmap.html#ARTIGO2">Linux</a></li>
+                </ul>
+            </li>
+                <li><a href="_falconnmap.html">Fale Conosco</a></li>
+        </ul>
+    </nav>
+    </center>
+    <!-- Fim do Menu -->
+    </main>
+    <left></left>
+    <br>
+    <br>
+    <br>
+    <br>
+    </left>
+    <!-- Inicio dos conteúdos -->
+    <center>
+    <section>
+        <br>
+        <div class="col-100">
+            <div class="content texto-destaque">
+                <article id="ARTIGO1">
+                    <h1>EXEMPLOS DE USO DO NMAP</h1>
+                    <hr color="#898989"> 
+                    <p>  
+                        Na área da segurança informática, concretamente ao nível da rede, existem muitas ferramentas
+                        interessantes para avaliar se um sistema está vulnerável ou não. 
+                    </p>
+                    <br> 
+                    <p> 
+                        O resultado produzido por 
+                        este tipo de ferramentas pode ser usado por pessoas mal intencionadas para os mais diversos
+                        fins ou por proprietários ou administradores de sistemas para melhorarem a segurança dos seus sistemas. 
+                        Uma das ferramentas que permite facilmente identificar sistemas e serviços é o NMAP. 
+                    </p>
+                    <br> 
+
+                    <!-- GIF de Ilustração -->
+                    <img src="img/Nmap/GIF6.gif"  height="500px"   width="750px" />
+                    <br>
+                    <br>
+                    <p>
+                        Tal como referido, o NMAP é uma ferramenta usada para reconhecimento de sistemas e serviços
+                        numa rede de dados. Esta ferramenta é uma das mais populares neste segmento e as opções que
+                        disponibiliza são variadíssimas.     
+                    </p>
+                    <br> 
+                </article>
+            
+                <article id="ARTIGO2">
+                    <br>
+                    <br>
+                    <h1>Descobrir endereços IP numa rede</h1>
+                    <hr color="#898989">
+                    <br>
+                    <br>
+                    <p> 
+                        Considere que pretende saber quais os endereços IP "ativos" numa determinada rede de dados. 
+                        Com o NMAP é muito simples! Para tal basta que execute o comando nmap -sP <.Rede>. O resultado 
+                        da execução deste comando permite, por exemplo, saber que outras máquinas andam na sua rede.
+                    </p>
+                    <br>
+                    <br>
+                    <img src="img/Nmap/EX1.PNG"  height="151px"   width="406px" />
+                    <br>
+                    <br>
+                </article>
+
+                <article class="ARTIGO3">
+                    <br>
+                    <br>
+                    <h1>Saber quais os portos TCP abertos de uma máquina</h1>
+                    <hr color="#898989"> 
+                    <br>
+                    <br>
+                    <p>
+                        Se pretende saber quais os portos lógicos abertos numa determinada máquina só tem de usar o comando nmap -sr <.IP_Máquina>.
+                    </p>
+                    <br>
+                    <br>
+                    <img src="img/Nmap/EX2.PNG"  height="105px"   width="394px" />
+                    <br>
+                    <br>
+                </article>
+
+                <article id="ARTIGO4">
+                    <br>
+                    <br>
+                    <h1>Saber se um porto específico está aberto</h1>
+                    <hr color="#898989">  
+                    <br>
+                    <br>
+                    <p>
+                        Considere que pretende saber se um determinado porto lógico está aberto numa determinada máquina. Com 
+                        o nmap o processo é bastante simples sendo apenas necessário indicar o porto lógico e a máquina: nmap -p <.porto> <.máquina>.
+                    </p>
+                    <br>
+                    <br>
+                    <img src="img/Nmap/EX3.PNG"  height="113px"   width="457px" />
+                    <br>
+                    <br>
+                </article>
+
+                <article id="ARTIGO5">
+                    <br>
+                    <br>
+                    <h1>Saber o sistema operativo de uma determinada máquina</h1>
+                    <hr color="#898989"> 
+                    <br>
+                    <br>
+                    <p>
+                        Quer saber remotamente qual o sistema operativo usado numa determinada máquina? O NMAP consegue, geralmente saber qual o 
+                        sistema instalado (incluindo a versão). Para obter essa informação pode usar o comando nmap -o <.IP_Máquina>
+                    </p> 
+                    <img src="img/Nmap/EX4.PNG"  height="115px"   width="386px" />
+                    <br>
+                    <br>
+                </article>
+
+                <article id="ARTIGO6">
+                    <br>
+                    <br>
+                    <h1>Inventário de todas as máquinas de uma determinada rede</h1>
+                    <hr color="#898989"> 
+                    <br>
+                    <br>
+                    <p>
+                        Ter um inventário de todas as máquinas de uma determinada rede é simples. Com o 
+                        comando nmap -sS -O -T3 -oA invent <.rede> podemos saber para cada PC da rede 
+                        indicada quais os portos abertos, MacAddress das máquinas, qual o sistema 
+                        operativo, latência, etc.
+                    </p> 
+                    <br>
+                    <br>
+                    <img src="img/Nmap/EX5.PNG"  height="109px"   width="480px" />
+                    <br>
+                    <br>
+                </article>
+
+                <article id="ARTIGO7">
+                    <br>
+                    <br>
+                    <h1>Detecção de Versão de Serviços</h1>
+                    <hr color="#898989"> 
+                    <br>
+                    <br>
+                    <p>
+                        A detecção de serviço é uma das técnicas mais usadas no nmap, permitindo por exemplo identificar 
+                        vulnerabilidades de segurança ou simplesmente verificar se um serviço está rodando em uma porta específica.
+                        A flag sV habilita detecção de serviço, retornando informações sobre serviços e versões.
+                    </p>
+                    <br>
+                    <br>
+                </article>
+
+                <article id="ARTIGO8">
+                    <br>
+                    <br>
+                    <h1>Identificar hostnames</h1>
+                    <hr color="#898989"> 
+                    <br>
+                    <br>
+                    <p>
+                        Podemos identificar os nomes de hosts ativos na rede com a flag -L
+                    </p>
+                    <br>
+                    <p>
+                        # sudo nmap -sL 192.168.1.1/24
+                    </p>
+                    <br>
+                    <br>
+                    <img src="img/Nmap/EX7.PNG"  height="110px"   width="415px" />
+                    <br>
+                    <br>
+                </article>  
+
+                <article class="ARTIGO9">
+                    <br>
+                    <br>
+                    <h1>Salvar a saída em um arquivo de texto</h1>
+                    <hr color="#898989"> 
+                    <br>
+                    <br>
+                    <p>
+                        Podemos salvar a saída gerada pelo nmap em um arquivo de texto, que pode ser analisado posteriormente, com a opção -oN:
+                    </p>
+                    <br>
+                    <p>
+                        sudo nmap --top-ports 20 -oN saida.txt 192.168.1.1
+                    </p>
+                    <br>
+                    <p>
+                        E então abrir essa saída usando qualquer editor de textos, ou até mesmo o comando cat.
+                    </p>
+                    <br>
+                    <br>                
+                    <img src="img/Nmap/EX8.PNG"  height="120px"   width="577px" />                    
+                    <br>
+                    <br>
+                </article>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    </center>
+    <!-- Fim dos conteúdos -->
+         <!-- Inicio do Rodapé -->   
+         <footer>
+            <div class="col-100 footer">
+            <br>
+            <br>
+            <div class="content">
+                    <div class="col-4">                              
+                        <p class="clock">25 de Novembro de 2021</p>               
+                        <br>
+                        <br>
+                        <br>
+                        <div class="logo">
+                            <a href="./index.html">
+                            <img src="./img/Nmap/logo.png"/>
+                            </a>
+                        </div>
+                    </div>
+                
+                    <div class="col-4">
+                        <h3><b>Um pouco sobre nós</b></h3>                    
+                        <br>
+                        <p>
+                            Blog voltado para a área de segurança da tecnologia.
+                        </p>
+                    </div>
+
+                    <div class="col-4"> 
+                        <h3><b>Entre em contato</b></h3>
+                        <br>
+                        <p>São Paulo, BR<p>
+                        <p>securitybot@email.profissional.com<p>
+                        <p>+55 (11) 91234 - 1234<p>
+                    </div>
+
+                    <div class="col-4">
+                        <h3><b>Tags</b></h3>
+                        <br>
+                        <p> <a href="indexnmap.html">#Nmap</a> <br>
+                            <a href="indexfire.html">#Firewall</a><br>  
+                            <a href="index.html#ARTIGO2">#SegurançaDaInformação</a>
+                        </p> 
+                    </div>
+                
+                </div>
+        </footer>
+
+        <div class="col-100 footer-2">
+            <div class="content">
+                <p>
+                    Todos os direitos reservados para o site Security Bot © 2021
+                </p>
+            </div>
+        </div>
+        <!-- Fim do Rodapé -->
+    </body>
+</html>

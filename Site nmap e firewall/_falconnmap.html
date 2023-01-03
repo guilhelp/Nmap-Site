@@ -1,0 +1,232 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="./css/main_falconnmap.css">
+        <title>Security Bot - Nmap</title>
+        
+        <script language=javascript>
+        function enviado()
+        {
+        alert("Sua mensagem foi enviada.");
+        
+        }
+        function Mascara (keypress)
+        {
+        // telefone 1
+        if(keypress>=48 && keypress<=57) 
+            {			
+                campo = eval (document.meuForm.telefone);
+            
+                separador1 = '(';
+                separador2 = ')';
+                separador3 = '-';
+                conjunto1 = 0;
+                conjunto2 = 3;
+                conjunto3 = 9;
+                if (campo.value.length == conjunto1)
+                {
+                    campo.value = campo.value + separador1;
+                }
+                if (campo.value.length == conjunto2)
+                {
+                    campo.value = campo.value + separador2;
+                }
+                if (campo.value.length == conjunto3)
+                {
+                    campo.value = campo.value + separador3;
+                }
+                return true;
+            }
+        else
+            {
+                return false;
+            }	
+        
+        }
+    </SCRIPT>
+    </head>
+
+<body>
+    <header class="menu-principal">
+        <main>
+            <div class="header-1">
+                <div class="logo">
+                    <a href="index.html">
+                    <img src="./img/Nmap/logo.png" />
+                    </a>
+                </div>
+                <div class="redes-sociais">
+                <br>
+                    <ul>
+                        <li>
+                            <a href="https://pt-br.facebook.com/" target="_blank">
+                                <img src="./img/Nmap/face.png" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <img src="./img/Nmap/insta2.png" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/" target="_blank">
+                                <img src="./img/Nmap/tw.png" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://br.linkedin.com/" target="_blank">
+                                <img src="./img/Nmap/linkedin.png" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </header>
+</header>
+ <!-- Menu -->
+ <center>
+    <nav>      
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li>
+                <a href="#">Informações
+                   <i class="fas fa-caret-down"></i>
+                </a>
+                <ul>
+                    <li><a href="indexnmap.html">Nmap</a></li>
+                    <li><a href="indexfire.html">Firewall</a></li>
+                </ul>
+           </li>
+            <li>
+                <a href="#">Funcionamento
+                    <i class="fas fa-caret-down"></i>
+                </a>
+                <ul>
+                    <li><a href="_funcnmap.html">Nmap</a></li>
+                    <li><a href="_funcfire.html">Firewall</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Exemplos
+                    <i class="fas fa-caret-down"></i>
+                </a>
+                <ul>
+                    <li><a href="_exenmap.html">Nmap</a></li>
+                    <li><a href="_exefire.html">Firewall</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Download
+                    <i class="fas fa-caret-down"></i>
+                </a>
+                <ul>
+                    <li><a href="_downnmap.html#ARTIGO1">Windows</a></li>
+                    <li><a href="_downnmap.html#ARTIGO2">Linux</a></li>
+                </ul>
+            </li>
+                <li><a href="_falconnmap.html">Fale Conosco</a></li>
+        </ul>
+    </nav>
+    </center>
+    <!-- Fim do Menu -->
+            </main>
+        <left></left>
+        <br>
+        <br>
+        <br>
+        </left>
+        <center>
+            <form name="meuForm" method="post" id="formulario">
+                <div class="box">
+                    <h1>Formulário de Contato :</h1>            
+                    <label>
+                        <span>Nome:</span>
+                        <input type="text" class="input_text" name="nome" id="name" title="Digite o seu nome completo "placeholder="Digite o seu nome completo"required/>
+                        <img src="./img/Nmap/logosozinho.png" align="right" />
+                    </label>
+
+                    <label>
+                        <span>Telefone:</span>
+                        <input type="text" class="input_text" name="telefone" id="name" title="Digite seu telefone"placeholder="(xx)xxxx-xxxx" onkeypress="return Mascara(window.event.keyCode)"/>
+                    </label>
+            
+                    <label>
+                        <span>Email:</span>
+                        <input type="email" class="input_text" name="email" id="email" title="Digite o seu email "placeholder="Digite o seu email"required/>
+                    </label>
+            
+                    <label>
+                        <span>Assunto:</span>
+                        <input type="text" class="input_text" name="assunto" id="subject" title="Digite o seu assunto "placeholder="Digite o seu assunto"/>
+                    </label>
+            
+                    <label>
+                        <span>Mensagem:</span>
+                        <textarea class="message" name="feedback" id="feedback" title="Digite sua mensagem "placeholder="Digite sua mensagem"></textarea>
+                        <input type="reset" class="button" value="Enviar" onclick="enviado()"/>
+                    </label>
+                </div>
+            </form>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </center>
+       <!-- Inicio do Rodapé -->  
+       <footer>
+        <div class="col-100 footer">
+            <br>
+            <br>
+            <div class="content">
+                <div class="col-4">                                    
+                    <p class="clock">25 de Novembro de 2021</p>                
+                    <br>
+                    <br>
+                    <br>
+                    <div class="logo">
+                        <a href="./index.html">
+                            <img src="./img/Firewall/logo.png" />
+                        </a>
+                    </div>
+                </div>                
+                
+                <div class="col-4">
+                    <h3><b>Um pouco sobre nós</b></h3>                        
+                    <br>
+                    <p>
+                        Blog voltado para a área de segurança da tecnologia.
+                    </p>
+                </div>
+               
+                <div class="col-4">                    
+                    <h3><b>Entre em contato</b></h3>
+                    <br>
+                    <p>São Paulo, BR<p>
+                    <p>securitybot@email.profissional.com<p>
+                    <p>+55 (11) 91234 - 1234<p>
+                </div>
+                
+                <div class="col-4">
+                    <h3><b>Tags</b></h3>
+                    <br>
+                    <p> <a href="indexnmap.html">#Nmap</a> <br>
+                        <a href="indexfire.html">#Firewall</a><br>  
+                        <a href="index.html#ARTIGO2">#SegurançaDaInformação</a>
+                    </p> 
+                </div>
+            </div>
+        </div>    
+    </footer>
+        <div class="col-100 footer-2">
+            <div class="content">
+                <p>
+                    Todos os direitos reservados para o site Security Bot © 2021
+                </p>
+            </div>
+        </div>
+        <!-- Fim do Rodapé --> 
+</body>
+</html>

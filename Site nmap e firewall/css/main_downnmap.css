@@ -1,0 +1,292 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background-image: url('../img/Nmap/GIF11.gif');
+  }
+    ul {
+       padding: 0px!important; 
+    }
+    .menu-principal {
+    width: 100%;
+    background-image: url('../img/Nmap/footer.png');
+    height: 100px;
+    }
+    main, .content {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+    }
+    .logo {
+     padding: 16px;
+     width: 70%;
+     float: left;
+    
+    }
+    .redes-sociais ul li {
+    margin-left: 25px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+    }
+    .redes-sociais {
+    width: 25%;
+    float: right;
+    }
+    .header-2 {
+    background-color: #272727;
+    width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+    }
+    .menu-urls {
+    height: 80px;
+    border-bottom: 0px solid #272727;
+    }
+
+    .texto-destaque {
+        text-align: center;
+    }
+    .texto-destaque strong {
+        color: #646464;
+    }
+    .texto-destaque h1 {
+        text-transform: uppercase;
+        font-size: 30px;
+        color: #818181;
+    }
+    .texto-destaque p {
+        font-size: 22px;
+        color: #9a9a9a;
+    }
+    
+    .col-3 {
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px; 
+        width: 29%;
+        float: left;
+        position: relative;
+    }
+    .bloco-imagem img {
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+    }
+    .bloco-imagem {
+        height: 300px;
+        border: 1px solid #272727;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-left: 10px;
+    }
+    .bloco-imagem b, p {
+        text-align: left;
+    }
+    .bloco-texto {
+        margin-top: 3em;
+    }
+    
+    h3 {
+        font-weight: normal!important;
+    }
+    
+    .bloco-imagens-texto {
+        background-color: #272727;
+    }
+    .bloco-imagens-texto:before {
+        width: 100%;
+        display: inline-block;
+        content: '';
+        height: 52px;
+        background: #272727;
+        background-image: url('../img/Nmap/setinha.png');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .bloco-imagens-texto:after {
+        width: 100%;
+        display: inline-block;
+        content: '';
+        height: 70px;
+        background: #272727;
+    } 
+    .col-4 {
+        float: left;
+        width: 25%;
+        text-align: justify;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #9a9a9a;
+        
+    }
+    .col-4 img {
+    cursor: pointer;
+     margin: 0 auto;
+     padding-top: 1em;
+     vertical-align: middle;
+    }
+    
+    
+    .bloco-logos {
+        height: 170px;
+    }
+    
+    .bloco-logos img {
+        margin-top: 50px;
+    }
+    
+    .footer h3 {
+        text-align: left;
+    }
+    
+    .footer {
+        background-image: url('../img/Nmap/footer.png');
+        color: #272727;
+    }
+    
+    .footer-2 {
+        background-image: url('../img/Nmap/footer2.png');
+        color: #c1c1c1;
+        height: 90px;
+    }
+    
+    
+    .footer p {
+        width: 90%;
+        text-align: left;
+    }
+    
+    .footer-2 p {
+        padding: 10px;
+    }
+    
+    .clock {
+        color: #9a9a9a;
+        font-size: 14px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .clock:before {
+        content: '';
+        width:  15px;
+        height: 15px;
+        display: inline-block;
+        background-image: url('../img/Nmap/clock.png');
+        float: left;
+        background-repeat: no-repeat;
+        padding-left: 5px;
+    }
+    .col-100 {
+        width: 100%;
+        float: left;
+        position: relative;
+    }
+     
+    h1{
+        font-family: Calibri;
+        text-align: left;
+    }
+    p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 14px;
+        text-align: justify;
+    }
+    a:link {
+        color: black;
+        text-decoration: none;
+      }
+      a:visited {
+        color:black;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #ffffff;
+        text-decoration: none;
+      }
+      *{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+      }
+      nav .logo{
+        color: white;
+        font-size: 33px;
+        font-weight: bold;
+        line-height: 70px;
+        padding-left: 110px;
+      }
+      nav{
+        height: 85px;
+        background: gray;
+        box-shadow: 0 3px 15px rgba(0,0,0,.4);
+        position: center;
+      }
+      nav ul{
+        float: right;
+        margin-left: 400px;
+        position: absolute;
+      }
+      nav ul li{
+        display: inline-block;
+        
+      }
+      nav ul li a{
+        color: white;
+        display: block;
+        padding: 0 15px;
+        line-height: 70px;
+        font-size: 20px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background: gray;
+        transition: .5s;
+        position: center;
+      }
+      nav ul li a:hover,
+      nav ul li a.active{
+        color: black;
+      }
+      nav ul ul{
+        position: center;
+        top: 85px;
+        border-top: 3px solid black;
+        opacity: 0;
+        visibility: hidden;
+      }
+      nav ul li:hover > ul{
+        top: 50px;
+        opacity: 1;
+        visibility: visible;
+        margin-left: 0px;
+      }
+      nav ul ul li{
+        width: 150px;
+        display: list-item;
+        position: left;
+        border: 1px solid #042331;
+        border-top: none;
+        
+      }
+      nav ul ul li a{
+        line-height: 50px;
+      }
+      nav ul ul ul{
+        border-top: none;
+      }
+      nav ul ul ul li{
+        position: left;
+        top: -70px;
+        left: 100px;
+      }
+      nav ul ul li a i{
+        margin-right: 700px;
+      }
+      section{
+        background-color: #272727;
+        width: 1100px;
+        height: 2000px;
+        background-position: center;
+        position: center;
+        border-radius: 10px 20px;
+    
+      }
